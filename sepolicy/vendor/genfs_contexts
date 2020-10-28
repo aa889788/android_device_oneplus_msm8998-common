@@ -10,3 +10,5 @@ genfscon proc /sys/kernel/boot_reason  u:object_r:proc_alarm_boot:s0
 
 genfscon sysfs /devices/soc/soc:fingerprint_detect/sensor_version    u:object_r:sysfs_fpc:s0
 genfscon sysfs /project_info/project_name                            u:object_r:sysfs_project_info:s0
+
+genfscon sysfs /bus/msm_subsys                                       u:object_r:sysfs_ssr:s0
